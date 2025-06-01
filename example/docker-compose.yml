@@ -13,8 +13,6 @@ services:
     image: ghcr.io/arian04/retro68:latest
     container_name: retro68
     user: "1000:1000"
-    build:
-      context: ./src
     environment:
       INTERFACES: universal
     volumes:
